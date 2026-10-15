@@ -46,25 +46,25 @@
         </div>
     </nav>
 
-    <main>
-        
-        <section>
-            <form action="">
+    <main class="d-flex flex-column justify-content-center align-items-center gap-4" style="background-color: lightslategrey;">
+        <h1>Cotiza tus muebles con nosotros</h1>
+        <section class="border rounded bg-light">
+            <form class="d-flex flex-column justify-content-center align-items-center gap-4">
                 <legend>Calculadora de presupuestos</legend>
 
-                <div>
+                <div >
                     <label>Cantidad de piezas</label>
                     <input type="number" required placeholder="xxxx">
                 </div>
 
                 <div>
-                    <label>Cantidad de piezas</label>
+                    <label>Tipo de mueble</label>
                     <select name="" id="">
                         <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
+                        <option value="">Pupitre Universitario - L. 1,290</option>
+                        <option value="">Silla Ergonómica Operativa - L. 4,800</option>
+                        <option value="">Escritorio Ejecutivo en Caoba - L. 24,500</option>
+                        <option value="">Mesa de Directorio en Cedro - L. 39,900</option>
                     </select>
                 </div>
 
@@ -72,76 +72,79 @@
                     <label>Tipo de mueble</label>
                     <select name="" id="">
                         <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
+                        <option value="">Siguatepeque/Comayagua - Flete: L. 300</option>
+                        <option value="">Tegucigalpa o SPS - Flete: L. 1,000</option>
+                        <option value="">Tegucigalpa o SPS - Flete: L. 1,000</option>
                     </select>
                 </div>
 
+                <p class="badge bg-info">* Descuento institucional del 12% a partir de 10 piezas</p>
+
                 <button>Calcular presupuesto</button>
+
+                <p>el costo de salida de su pedido es de: </p>
             </form>
         </section>
 
 
         <section>
-            <div>
-                <p>el costo de salida de su pedido es de: </p>
-            </div>
-        </section>
 
-        <section>
-
-            <table border="1">
-                <thead>
+            <table class="table table-borders border-3 border-dark">
+                <thead >
                     <tr>
-                        <th scope="col">codigo</th>
-                        <th scope="col">linea mueble</th>
-                        <th scope="col">especie forestal</th>
-                        <th scope="col">Humedad hornp</th>
-                        <th scope="col">texttete</th>
+                        <th scope="col">Codigo</th>
+                        <th scope="col">Linea mueble</th>
+                        <th scope="col">Especie forestal</th>
+                        <th scope="col">Humedad en horno</th>
+                        <th scope="col">Resistencia mecanica</th>
+                        <th scope="col">ICF</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <th>codigo1</th>
-                        <td>linea</td>
-                        <td>espacio</td>
-                        <td>humedad</td>
-                        <td>ultimo</td>
+                        <th>001</th>
+                        <td>Mueble de hogar</td>
+                        <td>Caoba</td>
+                        <td>50%</td>
+                        <td>Alta</td>
+                        <td class="badge bg-success">Certificada</td>
                     </tr>
 
                     <tr>
-                        <th>codigo2</th>
-                        <td>linea</td>
-                        <td>espacio</td>
-                        <td>humedad</td>
-                        <td>ultimo</td>
+                        <th>002</th>
+                        <td>Mueble de oficina</td>
+                        <td>Cedro</td>
+                        <td>50%</td>
+                        <td>Media</td>
+                        <td class="badge bg-warning">En proceso</td>
                     </tr>
 
                     <tr>
-                        <th>codigo3</th>
-                        <td>linea</td>
-                        <td>espacio</td>
-                        <td>humedad</td>
-                        <td>ultimo</td>
+                        <th>003</th>
+                        <td>Mueble de comedor</td>
+                        <td>Cedro</td>
+                        <td>40%</td>
+                        <td>Media</td>
+                        <td class="badge bg-warning">En proceso</td>
                     </tr>
 
                     <tr>
-                        <th>codigo4</th>
-                        <td>linea</td>
-                        <td>espacio</td>
-                        <td>humedad</td>
-                        <td>ultimo</td>
+                        <th>004</th>
+                        <td>Mueble de exteriores</td>
+                        <td>Pino ocarpa</td>
+                        <td>70%</td>
+                        <td>Baja</td>
+                        <td class="badge bg-success">Certificada</td>
                     </tr>
 
                     <tr>
-                        <th>codigo5</th>
-                        <td>linea</td>
-                        <td>espacio</td>
-                        <td>humedad</td>
-                        <td>ultimo</td>
+                        <th>005</th>
+                        <td>Mueble decorativo</td>
+                        <td>Caoba</td>
+                        <td>40%</td>
+                        <td>Alta</td>
+                        <td class="badge bg-success">Certificada</td>
                     </tr>
                 </tbody>
             </table>
