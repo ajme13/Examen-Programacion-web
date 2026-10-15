@@ -46,14 +46,14 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Formulario de licitaciones</h1>
-        <section>
-            <form action="">
-                <legend>form licitaciones</legend>
+    <main class="d-flex flex-column justify-content-center align-items-center gap-4" style="background-color: lightslategrey;">
+        <h1 class="mt-5">Requieres una licitacion?</h1>
+        <section class="border rounded bg-light mb-5">
+            <form class="d-flex flex-column justify-content-center align-items-center gap-4">
+                <legend style="text-align: center; margin-top: 20px;">Formulario de licitaciones</legend>
 
                 <div>
-                    <label>nombre</label>
+                    <label>Nombre</label>
                     <input type="text" required placeholder="xxxx" minlength="5" maxlength="50">
                 </div>
 
@@ -63,31 +63,37 @@
                 </div>
 
                 <div>
-                    <label>correo</label>
+                    <label>Correo</label>
                     <input type="text" required placeholder="xxxx" minlength="5" maxlength="14">
                 </div>
 
                 <div>
-                    <label>telefono</label>
+                    <label>Telefono</label>
                     <input type="text" required placeholder="xxxx" minlength="9" maxlength="9">
                 </div>
 
                 <div>
-                    <label>departamento de entrega</label>
+                    <label>Departamento de entrega</label>
                     <select name="" id="">
                         <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
-                        <option value="">-- Seleccione una opcion --</option>
+                        <option value="">Comayagua</option>
+                        <option value="">Francisco Morazán</option>
+                        <option value="">Cortés</option>
+                        <option value="">La Paz</option>
+                        <option value="">Atlántida</option>
+                        <option value="">Islas de la Bahía</option>
                     </select>
                 </div>
 
-                <div>
-                    acepta los terminos de garantia forestal
-                </div>
+                <label>
+                    <input type="checkbox" required>
+                    Acepto los terminos de garantia forestal de 5 años
+                </label>
 
-                <button>Enviar</button>
+                <div>
+                    <button class=" btn mb-4 me-5 btn-primary">Enviar Cotizacion</button>
+                    <button class=" btn mb-4 btn-danger">Limpiar formulario</button>
+                </div>
             </form>
         </section>
     </main>
