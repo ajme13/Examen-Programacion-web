@@ -1,0 +1,11 @@
+.env
+.env.local
+config/pasarela_pagos.json
+
+backups/
+*.sql
+*.sqlite
+
+node_modules/
+vendor/
+logs/
