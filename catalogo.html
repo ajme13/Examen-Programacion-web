@@ -4,130 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Inicio</a>
-            </li>
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-2 bg-info">
 
-            <li>
-                <a href="/catalogo.html">Catalogo</a>
-            </li>
+        <div>
+            <img style="height: 100px; width: 100px;" src="https://png.pngtree.com/png-clipart/20230723/original/pngtree-home-interior-decor-logo-design-decoration-furniture-vector-png-image_9337331.png" alt="logo">
+        </div>
 
-            <li>
-                <a href="/lotes.html">Lotes especiales</a>
-            </li>
+        <div class="container">
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir navegación" class="navbar-toggler border-0 bg-primary">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
 
-            <li>
-                <a href="/licitaciones.html">Licitaciones</a>
-            </li>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li>
+                        <a href="/index.html" class="nav-link px-3">Inicio</a>
+                    </li>
 
-            <li>
-                <a href="/contacto.html">Contacto</a>
-            </li>
-        </ul>
+                    <li>
+                        <a href="/catalogo.html" class="nav-link px-3">Catalogo</a>
+                    </li>
+
+                    <li>
+                        <a href="/lotes.html" class="nav-link px-3">Lotes especiales</a>
+                    </li>
+
+                    <li>
+                        <a href="/licitaciones.html" class="nav-link px-3">Licitaciones</a>
+                    </li>
+
+                    <li>
+                        <a href="/contacto.html" class="nav-link px-3">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <main>
-        <section>  <!--  catalogo de tarjetas -->
+        <section class="imagenes">  <!--  catalogo de tarjetas -->
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://i.ebayimg.com/images/g/MUoAAeSwTkhof0Tl/s-l1200.webp" alt="Escritorio ejecutivo">
+                <p>Escritorio ejecutivo</p>
+                <p> Mueble de oficina</p>
+                <p>300L</p>
+                <p>Material MDF con chapa de madera, 160cm x 80cm x 75 cm, garantia de 1 año, Pasacables integrados, cajonera pedestal fija o móvil con cerradura, ala lateral de apoyo opcional, capacidad de carga > 100 kg.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://d31f1ehqijlcua.cloudfront.net/n/5/f/1/3/5f13ec2e645c262376aab49518131d471272d125_OfficeChairs_491504_01.jpg" alt="silla ergonomica de oficina">
+                <p>Silla Ergonómica de Oficina</p>
+                <p>Muebles de Oficina</p>
+                <p>200L</p>
+                <p>Malla transpirable (mesh) en respaldo, asiento en espuma inyectada de alta densidad, Pistón de gas Clase 4 (soporta hasta 120–150 kg), soporte lumbar regulable en altura/profundidad</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://www.ipsa.hn/cdn/shop/files/I-MS220-030-XXTB.jpg?v=1770478559&width=1400" alt="sofa seccional">
+                <p>Sofá Seccional</p>
+                <p>Muebles de Sala</p>
+                <p>10000L</p>
+                <p>Madera maciza de pino o eucalipto curado. 240 cm x 150 cm. Espuma de poliuretano (densidad D28–D30) con cinchas elásticas interconectadas</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://ladylee.net/cdn/shop/files/1109091_01_media_lly515Wx515H_38a0c319-5ad5-41b3-b52c-69654bd2a06a.jpg?v=1738537431" alt="Mesa de centro">
+                <p>Mesa de Centro</p>
+                <p>Muebles de Sala</p>
+                <p>1000L</p>
+                <p>100 x 50 cm x 40 cm. Estructura de perfil tubular con pintura en polvo, almacenamiento inferior o repisa auxiliar integradas.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpR5SR7OwKf7K2duS6qzqzJBNIoX2ghyePPsUHSZyFpLYZBDaGOaSRD9I&s=10" alt="cama matrimonial">
+                <p>Cama Matrimonial</p>
+                <p>Muebles de Dormitorio</p>
+                <p>15000L</p>
+                <p>Para colchón de 135 cm x 190 cm, Madera maciza o tubo de acero industrial con somier de lamas de madera de haya/eucalipto. Cabecero integrado, soportes centrales metálicos reforzados.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZd7mkLdJDOBBFPiC-cR-ukXiQO2xXCahUtbX7mZ341T1rLtTPN1i1uCd&s=10" alt="mesa de comedor">
+                <p>Mesa de Comedor</p>
+                <p>Muebles de Comedor</p>
+                <p>5000</p>
+                <p>capacidad de 6 comensales. 150 x 90 cm x 75 cm.Cubierta en madera maciza, MDF enchapado o melamina de 25 mm con bordes en PVC/ABS de 2 mm</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6hNdiI5IpPMOpNB7-Uo8S2fPHzEPPxhD7bpinTNJ21PtvTIKWL7O-AmJ&s=10" alt="mesa de noche">
+                <p>Mesa de Noche</p>
+                <p>Muebles de Dormitorio</p>
+                <p>500L</p>
+                <p>Tablero de aglomerado/MDF de 15 mm con acabado en melamina. 40cm  x 35cm x 50 cm.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://walmarthn.vtexassets.com/arquivos/ids/643514/21059_01.jpg?v=638797932109400000" alt="armario">
+                <p>Armario</p>
+                <p>Muebles de Dormitorio</p>
+                <p>2000L</p>
+                <p>120cm x 50cm x 180cm. 3 a 4 puertas (correderas o batientes con bisagras cazoleta de 35 mm con freno), 2–3 cajones externos/internos.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9kOdjbAlJ6uukj5rnv21uwZBtzSXMafYz8MSFP9rGTg&s" alt="aparador">
+                <p>Aparador</p>
+                <p>Muebles de Comedor</p>
+                <p>500L</p>
+                <p>140cm x 40cm  x 75 cm. Puertas con sistema push-to-open o tiradores de aluminio, estantes internos regulables y capacidad de carga en cubierta superior de hasta 40 kg. </p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://content.elmueble.com/medio/2023/04/12/00538456-rceibidor-con-consola-de-madera-espejo-de-cuadricula-y-cestos_00000000_787d84f4_230412135038_900x900.jpg" alt="mueble recibidor">
+                <p>Mueble Recibidor</p>
+                <p>Muebles de Entrada</p>
+                <p>1000L</p>
+                <p>Estilo industrial/moderno con perfil metálico y tableros MDF. 80cm x 30cm x 80cm.</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://i.ebayimg.com/images/g/gwIAAOSwzQ5oNA-w/s-l1200.webp" alt="sofa cama">
+                <p>Sofá Cama</p>
+                <p>Muebles Multiuso</p>
+                <p>5000L</p>
+                <p>Clic-clac (libro), desplegable con carro o apertura italiana. Sofá (180cm x 85 cm ) / Cama desplegada (110cm x 190 cm).</p>
             </article>
 
             <article style="background-color: lightblue;">
-                <img src="" alt="">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <img src="https://content.elmueble.com/medio/2024/10/07/con-textura_72d8c88f_00584148_241007091105_2000x1599.webp" alt="isla de cocina">
+                <p>Isla de Cocina Auxiliar</p>
+                <p>Muebles de Cocina</p>
+                <p>7000L</p>
+                <p>Cubierta de madera maciza (alistonado de pino/caucho) tratada con barniz atóxico o cuarzo sintético; cuerpo de MDF resistente a humedad (RH). 100cm x 60cm x 90cm.</p>
             </article>
 
 
@@ -135,19 +151,25 @@
 
     </main>
 
-    <footer>
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, labore!</p>
+    <footer class="py-4 mt-auto border-top bg-dark text-light d-flex justify-content-evenly">
+        <div class="col-12 col-md-3">
+            <p class="bi bi-geo-alt-fill">KM 114 Carretera CA-5, Siguatepeque</p>
+            <p class="bi bi-telephone-fill">Tel:4356-8943</p>
         </div>
 
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, iure.</p>
+        <div class="col-12 col-md-3">
+            <p class="bi bi-geo-alt-fill">Blvd. Morazan, Tegucigalpa</p>
+            <p class="bi bi-telephone-fill">Tel:3454-2354</p>
         </div>
 
-        <div>
-            <p>enlaces a reedes</p>
+        <div class="col-12 col-md-3">
+            <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AfnC0AFqayAK13DdWYVr09LvrdEpp2J5jyVgpr8PeyiFVeG1DOmIPnCZcLBC7o8ckGucdPyITC-DLTu26_KjoWJeT9ZOBqM09yuCFGyRpYv6Zw&smuh=763&lh=AdCa7cKHqlv3G51uhwA"><img style="height: 50px; width: 50px;" src="https://static.xx.fbcdn.net/rsrc.php/y-/r/yhD4cqC_Wzs.webp" alt=""></a>
+            <a href="https://www.instagram.com/?flo=true"><img style="height: 50px; width: 50px; margin-left: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original" alt=""></a>
         </div>
+
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

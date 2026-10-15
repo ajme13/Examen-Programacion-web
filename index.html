@@ -4,64 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="cuerpo">
 
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Inicio</a>
-            </li>
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-2 bg-info">
 
-            <li>
-                <a href="/catalogo.html">Catalogo</a>
-            </li>
+        <div>
+            <img style="height: 100px; width: 100px;" src="https://png.pngtree.com/png-clipart/20230723/original/pngtree-home-interior-decor-logo-design-decoration-furniture-vector-png-image_9337331.png" alt="logo">
+        </div>
 
-            <li>
-                <a href="/lotes.html">Lotes especiales</a>
-            </li>
+        <div class="container">
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir navegación" class="navbar-toggler border-0 bg-primary">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
 
-            <li>
-                <a href="/licitaciones.html">Licitaciones</a>
-            </li>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li>
+                        <a href="/index.html" class="nav-link px-3">Inicio</a>
+                    </li>
 
-            <li>
-                <a href="/contacto.html">Contacto</a>
-            </li>
-        </ul>
+                    <li>
+                        <a href="/catalogo.html" class="nav-link px-3">Catalogo</a>
+                    </li>
+
+                    <li>
+                        <a href="/lotes.html" class="nav-link px-3">Lotes especiales</a>
+                    </li>
+
+                    <li>
+                        <a href="/licitaciones.html" class="nav-link px-3">Licitaciones</a>
+                    </li>
+
+                    <li>
+                        <a href="/contacto.html" class="nav-link px-3">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <h1>MUEBLESIG HONDURAS</h1>
+    <h1 style="margin-top: 20px;">MUEBLESIG HONDURAS</h1>
     <main>
-        <h2>Quienes somos?</h2>
+        
         <section>
+            <h2>Quienes somos?</h2>
             <div style="background-color: lightblue;">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum fugiat rem nostrum est, quasi incidunt cupiditate cum inventore id recusandae deserunt nisi eius minima amet sed dolorem. Optio, enim?</p>
+                <p>En MUEBLESIG Honduras transformamos espacios para convertirlos en el escenario perfecto para tus proyectos e instituciones. Somos una empresa Hondureña que opera entregano muebles de gran calidad a diferentes sectores a nivel nacional. Entendemos el estilo de trabajo y las necesidades del mercado hondureño, por lo que seleccionamos cuidadosamente piezas que destacan por sus acabados inovadores, materiales resistentes y perduracion a travez del tiempo</p>
             </div>
         </section>
 
-        <h2>Acerca de nuestros talleres y forma de trabajo</h2>
+        
         <section>
+            <h2>Acerca de nuestros talleres y forma de trabajo</h2>
             <div style="background-color: lightblue;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deleniti tempore illum fuga minus. Sunt fuga nemo itaque in omnis accusamus aliquid eaque hic, minus blanditiis vitae reiciendis, aliquam dolorem.
+                <p>Nuestros talleres de fabricacion y procesos de trabajo combinan la maestria artesanal con grandes estandares de produccion, asegurando que cada pieza refleje calidad, precision y la escencia del diseño nacional. Creemos que un buen mueble no solo viste un espacio, sino que forma parte de la historia de un hogar. En nuestro taller combinamos el oficio ebanista con un enfoque personalizado: seleccionamos materiales de primera clase, cuidamos minuciosamente cada ensamble y aplicamos acabados duraderos a mano. Nos encargamos de todo el proceso, desde el primer boceto hasta la instalación final en tu casa, asegurando calidad, puntualidad y satisfacción en cada entrega.</p>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, labore!</p>
+    <footer class="py-4 mt-auto border-top bg-dark text-light d-flex justify-content-evenly">
+        <div class="col-12 col-md-3">
+            <p class="bi bi-geo-alt-fill">KM 114 Carretera CA-5, Siguatepeque</p>
+            <p class="bi bi-telephone-fill">Tel:4356-8943</p>
         </div>
 
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, iure.</p>
+        <div class="col-12 col-md-3">
+            <p class="bi bi-geo-alt-fill">Blvd. Morazan, Tegucigalpa</p>
+            <p class="bi bi-telephone-fill">Tel:3454-2354</p>
         </div>
 
-        <div>
-            <p>enlaces a reedes</p>
+        <div class="col-12 col-md-3">
+            <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AfnC0AFqayAK13DdWYVr09LvrdEpp2J5jyVgpr8PeyiFVeG1DOmIPnCZcLBC7o8ckGucdPyITC-DLTu26_KjoWJeT9ZOBqM09yuCFGyRpYv6Zw&smuh=763&lh=AdCa7cKHqlv3G51uhwA"><img style="height: 50px; width: 50px;" src="https://static.xx.fbcdn.net/rsrc.php/y-/r/yhD4cqC_Wzs.webp" alt=""></a>
+            <a href="https://www.instagram.com/?flo=true"><img style="height: 50px; width: 50px; margin-left: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original" alt=""></a>
         </div>
+
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

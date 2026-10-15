@@ -1,0 +1,26 @@
+.imagenes{
+
+}
+
+.imagenes article img{
+    height: 100px;
+    width: 100px;
+}
+
+.cuerpo{
+    text-align: center;
+    background-color: lightslategray;
+}
+
+.cuerpo main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cuerpo section{
+    width: 400px;
+    height: 400px;
+}
